@@ -1,0 +1,67 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-image: url("iron-man-suit.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+#header h1 {
+	font-size: 48px;
+	margin-bottom: 0;
+}
+
+#header img {
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 40vh;
+}
+
+#response-area {
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 30px;
+	width: 80%;
+	text-align: center;
+	color: #666;
+}
+
+#controls {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#speak-btn {
+	background-color: #ff2a2a;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 24px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+#speak-btn:hover {
+	background-color: #ff5252;
+}
